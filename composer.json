@@ -1,0 +1,30 @@
+{
+    "name": "Simple application that computes the commission",
+    "description": "A sample application that reads from csv and makes necessary calculation",
+    "homepage": "https://github.com/sun-will/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "William Sun",
+            "email": "will_sun80@yahoo.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/matmar10/lib-money"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3",
+        "matmar10/lib-money": "dev-master",
+        "ext-bcmath": "*",
+        "phpunit/phpunit": ">=4.8 < 6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Will\\": "src/" 
+            
+        }
+    }
+}
